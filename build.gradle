@@ -12,12 +12,10 @@ group 'org.eclipse.collections'
 version '7.1.0-SNAPSHOT'
 
 apply plugin: 'idea'
-apply plugin: 'eclipse'
 
 subprojects {
   apply plugin: 'java'
   apply plugin: 'idea'
-  apply plugin: 'eclipse'
 
   repositories {
     mavenCentral()
